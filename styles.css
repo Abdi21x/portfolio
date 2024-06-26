@@ -1,11 +1,48 @@
 .navbar {
     background-color: #1f2937;
     color: aliceblue;
+    width: 100%;
+    padding: 10px;
+   
 }
-.navlist .navs {
+.portFolio {
+    margin-right: auto;
+    font-size: 20px;
+    background-color: red;
+    
+}
+ul {
     display: flex;
-    justify-content: space-between;
+    padding: 10px;
+    list-style: none;
+    align-items: center;
+
+
 }
-.portfolio {
-    font-size: bold;
+.first  {
+    margin-left: 120px;
+}
+p {
+    margin-left: 120px;
+}
+li {
+    padding: 10px;
+   justify-content: space-between;
+}
+img {
+    width: 200px;
+    height: 100px;
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 300px;
+    align-self: center;
+}
+button {
+    margin-top: 2px;
+    display: block;
+    background-color: #3883f6;
+    color: wheat;
+    font-size: large;
+    border-radius: 2vh;
+    margin-left: 120px;
 }

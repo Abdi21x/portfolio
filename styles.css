@@ -129,28 +129,55 @@ body {
 .r-main-container {
     background-color: #e5e7eb;
 }
-.sign-up-now {
-    background-color: #3882f6;
-    border-radius: 10px;
-    padding: 10px 30px;
-    color: #f9faf8;
-    font-weight: bold;
-    border-color: white;
-    margin: 50px;
-}
-.call-us {
-    display: flex;
-    background-color: #3882f6;
-    border-radius: 10px;
+
+.main-container {
+    background-color: white;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    margin: px;
-
 }
+
+.mini-div {
+  background-color: #3882f6; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 70px;
+  border-color: white;
+  border-radius: 80px;
+  padding: 20px;
+  border-width: 50px;
+}
+
+   
+
+
 .call-left {
     color: #e5e7eb;
+    display: block;
+    margin-right: 70px;
 }
-.main-container {
-    margin: none;
+
+.sign-up-now {
+  background-color: #3882f6;
+  border-radius: 10px;
+  border: solid 3px;
+  padding: 7px 40px;
+  border-color: white;
+  color: white;
+  font-weight: bold;
+}
+
+.maindiv {
+    background-color: none;
+}
+.footer {
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+footer {
+    margin: 40px 0;
+    font-weight: bold;
 }
